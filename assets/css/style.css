@@ -1,0 +1,120 @@
+body {
+    background-color: #800020;
+    color: white;
+    font-family: 'Lora', serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #800020;
+    padding: 1.5rem 0;
+    margin-top: 1rem;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.main-content {
+    background-color: #800020;
+    padding: 2rem 0;
+    flex: 1;
+}
+.column {
+    background-color: #6B001A;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+.column:hover {
+    transform: translateY(-5px);
+}
+.column h2 {
+    font-size: 1.5rem;
+    color: white;
+    border-bottom: 1px solid #D4A5A5;
+    padding-bottom: 0.5rem;
+    font-family: 'Playfair Display', serif;
+}
+.column p {
+    font-size: 0.8rem;
+    line-height: 1.6;
+}
+.foto-clara {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 5px;
+}
+.footer {
+    background-color: #800020;
+    padding: 1rem 0;
+    color: white;
+}
+section {
+    padding: 0 1.5rem;
+}
+.wineSection {
+    background-color: #6B001A;
+    color: white;
+}
+.wineSection h2 {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 2rem;
+    border-bottom: none;
+}
+.wineSection #soneto {
+    background-color: #FFF5E9;
+    color: #800020;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left; /* Volta ao alinhamento à esquerda */
+}
+#soneto h2 {
+    color: #800020;
+    text-align: center; /* Mantém o título centralizado */
+}
+#autor {
+    text-align: right;
+}
+#contadorTempo {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #FFD700;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #8B0000;
+    background-color: #f8f9fa;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.text-container p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #8B0000;
+    margin-bottom: 0;
+}
+#mensagem {
+    margin-top: 10px;
+    font-size: 15px;
+}
